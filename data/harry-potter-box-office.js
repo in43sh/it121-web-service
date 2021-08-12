@@ -1,5 +1,5 @@
 {
-	"title": "Bond Films by Box Office Totals",
+	"title": "Harry Potter Films by Box Office Totals",
 	"films": [
             {
 				"Film":1,
