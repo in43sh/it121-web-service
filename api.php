@@ -1,5 +1,5 @@
 <?php
- /**
+/**
  * api.php is a sample API file to be called via AJAX to 
  * deliver the contents of 2 JSON files, one of which orders the 
  * data by year, the other by Box Office Results.
@@ -11,14 +11,14 @@
  * api.php?cat=box
  * </code>
  *
- * In the example above, the parameter cat is loaded with the string "box" 
- * which will indicate to the API to load the JSON file containing 
+ * In the example above, the parameter cat is loaded with the string "box"
+ * which will indicate to the API to load the JSON file containing
  * box office results.
  *
  * @package bond-web-service
  * @author Bill Newman
  * @version 1.01 2015/02/15
- * @link https://github.com/newmanix/bond-web-service 
+ * @link https://github.com/newmanix/bond-web-service
  * @license http://www.apache.org/licenses/LICENSE-2.0
  * @see index.htm
  * @todo none
