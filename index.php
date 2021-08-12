@@ -9,7 +9,7 @@
         border-radius: 5px;
         padding: 5px;
         margin-bottom:5px;
-        position:relative;    
+        position:relative;
     }
 
     .pic{
@@ -22,14 +22,14 @@
 <script src="https://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
 
 <script type="text/javascript">
-$(document).ready(function() {  
+$(document).ready(function() {
 
     $('.category').click(function(e){
         e.preventDefault(); //stop default action of the link
         cat = $(this).attr("href");  //get category from URL
         loadAJAX(cat);  //load AJAX and parse JSON file
     });
-});    
+});
 
 
 function loadAJAX(cat)
@@ -44,7 +44,7 @@ function loadAJAX(cat)
         success: bondJSON
     });
 }
-    
+
 function toConsole(data)
 {//return data to console for JSON examination
     console.log(data); //to view,use Chrome console, ctrl + shift + j
@@ -65,7 +65,7 @@ function bondJSON(data){
         let myFilm = bondTemplate(item);
 
         $('<div></div>').html(myFilm).appendTo('#films');
-    });    
+    });
 
 //This loads the data on the page, but it is all bunched
 //$("#output").text(JSON.stringify(data));
@@ -93,7 +93,7 @@ function bondTemplate(film){
             <b>Composer:</b>${film.Composer}<br />
             <b>Bond:</b>Sean ${film.Bond}<br />
             <b>Budget:</b>${film.Budget}<br />
-            <b>Box Office:</b>${film.BoxOffice}<br />    
+            <b>Box Office:</b>${film.BoxOffice}<br />
         <div class="pic"><img src="thumbnails/${film.Image}" /></div>
     `;
 
@@ -120,7 +120,7 @@ function bondTemplate(film){
                 <b>Composer:</b>Monty Norman<br />
                 <b>Bond:</b>Sean Connery<br />
                 <b>Budget:</b>$1,000,000.00<br />
-                <b>Box Office:</b>$59,567,035.00<br />    
+                <b>Box Office:</b>$59,567,035.00<br />
                 <div class="pic"><img src="thumbnails/dr-no.jpg" /></div>
             </div>
             -->
