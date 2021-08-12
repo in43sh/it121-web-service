@@ -32,7 +32,7 @@ if(isset($_REQUEST['cat']))
 			include('data/harry-potter-box-office.js'); //"box" orders by box office results
 			break;
 		default:
-			include('data/bond-year.js'); //default orders by year
+			include('data/harry-potter-year.js'); //default orders by year
 	}
 }else{//if not data sent, inform calling application
 	echo "Incorrect parameter sent";
