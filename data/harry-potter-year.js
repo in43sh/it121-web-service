@@ -12,8 +12,8 @@
 				"Budget":"$125,000,000",
 				"BoxOffice":"$1,006,968,171",
 				"Image":"skyfall.jpg"
-			  },
-              {
+			},
+            {
 				"Film":2,
 				"Title":"Harry Potter and the Chamber of Secrets",
 				"Year":2002,
@@ -24,8 +24,8 @@
 				"Budget":"$125,000,000",
 				"BoxOffice":"$1,006,968,171",
 				"Image":"skyfall.jpg"
-			  },
-			  {
+			},
+			{
 				"Film":3,
 				"Title":"Harry Potter and the Prisoner of Azkaban",
 				"Year":2004,
@@ -36,8 +36,8 @@
 				"Budget":"$125,000,000",
 				"BoxOffice":"$1,006,968,171",
 				"Image":"skyfall.jpg"
-			  },
-			  {
+			},
+			{
 				"Film":4,
 				"Title":"Harry Potter and the Goblet of Fire",
 				"Year":2005,
@@ -48,8 +48,8 @@
 				"Budget":"$125,000,000",
 				"BoxOffice":"$1,006,968,171",
 				"Image":"skyfall.jpg"
-			  },
-			  {
+			},
+			{
 				"Film":5,
 				"Title":"Harry Potter and the Order of the Phoenix",
 				"Year":2007,
@@ -60,8 +60,8 @@
 				"Budget":"$125,000,000",
 				"BoxOffice":"$1,006,968,171",
 				"Image":"skyfall.jpg"
-			  },
-			  {
+			},
+			{
 				"Film":6,
 				"Title":"Harry Potter and the Half-Blood Prince",
 				"Year":2009,
@@ -72,8 +72,8 @@
 				"Budget":"$125,000,000",
 				"BoxOffice":"$1,006,968,171",
 				"Image":"skyfall.jpg"
-			  },
-			  {
+			},
+			{
 				"Film":7.1,
 				"Title":"Harry Potter and the Deathly Hallows: Part 1",
 				"Year":2010,
@@ -84,8 +84,8 @@
 				"Budget":"$125,000,000",
 				"BoxOffice":"$1,006,968,171",
 				"Image":"skyfall.jpg"
-			  },
-			  {
+			},
+			{
 				"Film":7.2,
 				"Title":"Harry Potter and the Deathly Hallows: Part 2",
 				"Year":2011,
@@ -96,8 +96,8 @@
 				"Budget":"$180,000,000",
 				"BoxOffice":"$210,300,000.00",
 				"Image":"moonraker.jpg"
-			  },
-			  {
+			},
+			{
 				"Film":8,
 				"Title":"Fantastic Beasts and Where to Find Them",
 				"Year":2016,
@@ -108,8 +108,8 @@
 				"Budget":"$180,000,000",
 				"BoxOffice":"$814,044,001",
 				"Image":"moonraker.jpg"
-			  },
-			  {
+			},
+			{
 				"Film":9,
 				"Title":"Fantastic Beasts and Where to Find Them 2",
 				"Year":2018,
@@ -120,8 +120,8 @@
 				"Budget":"$200,000,000",
 				"BoxOffice":"$654,855,901",
 				"Image":"moonraker.jpg"
-			  },
-			  {
+			},
+			{
 				"Film":10,
 				"Title":"Fantastic Beasts and Where to Find Them 3",
 				"Year":2022,
@@ -132,6 +132,6 @@
 				"Budget":"$31,000,000.00",
 				"BoxOffice":"$210,300,000.00",
 				"Image":"moonraker.jpg"
-			  }
+			}
 			]
 }

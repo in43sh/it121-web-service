@@ -1,6 +1,7 @@
 {
 	"title": "Harry Potter Films by Box Office Totals",
-	"films": [{
+	"films": [
+		{
 			"Film": 7.2,
 			"Title": "Harry Potter and the Deathly Hallows: Part 2",
 			"Year": 2011,
