@@ -93,7 +93,7 @@ function harryPotterTemplate(film){
             <b>Budget:</b>${film.Budget}<br />
             <b>Box Office:</b>${film.BoxOffice}<br />
         <div class="pic">
-            <img src="thumbnails/${film.Image}" />
+            <img width="100px" height="auto" src="thumbnails/${film.Image}" />
         </div>
     `;
 }

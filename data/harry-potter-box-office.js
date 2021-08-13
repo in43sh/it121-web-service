@@ -11,7 +11,7 @@
 			"Composer": "John Barry",
 			"Budget": "$180,000,000",
 			"BoxOffice": "$1,342,321,665",
-			"Image": "moonraker.jpg"
+			"Image": "harry-potter7-2.jpg"
 		},
 		{
 			"Film": 1,
@@ -23,7 +23,7 @@
 			"Composer": "John Williams",
 			"Budget": "$125,000,000",
 			"BoxOffice": "$1,006,968,171",
-			"Image": "skyfall.jpg"
+			"Image": "harry-potter1.jpg"
 		},
 		{
 			"Film": 7.1,
@@ -35,7 +35,7 @@
 			"Composer": "John Williams",
 			"Budget": "$125,000,000",
 			"BoxOffice": "$977,043,483",
-			"Image": "skyfall.jpg"
+			"Image": "harry-potter7-1.jpg"
 		},
 		{
 			"Film": 5,
@@ -47,7 +47,7 @@
 			"Composer": "John Williams",
 			"Budget": "$125,000,000",
 			"BoxOffice": "$942,172,396",
-			"Image": "skyfall.jpg"
+			"Image": "harry-potter5.jpg"
 		},
 		{
 			"Film": 6,
@@ -59,7 +59,7 @@
 			"Composer": "John Williams",
 			"Budget": "$125,000,000",
 			"BoxOffice": "$934,454,096",
-			"Image": "skyfall.jpg"
+			"Image": "harry-potter6.jpg"
 		},
 		{
 			"Film": 4,
@@ -71,7 +71,7 @@
 			"Composer": "John Williams",
 			"Budget": "$125,000,000",
 			"BoxOffice": "$896,678,241",
-			"Image": "skyfall.jpg"
+			"Image": "harry-potter4.jpg"
 		},
 		{
 			"Film": 2,
@@ -83,7 +83,7 @@
 			"Composer": "John Williams",
 			"Budget": "$125,000,000",
 			"BoxOffice": "$1,006,968,171",
-			"Image": "skyfall.jpg"
+			"Image": "harry-potter2.jpg"
 		},
 		{
 			"Film": 3,
@@ -95,7 +95,7 @@
 			"Composer": "John Williams",
 			"Budget": "$125,000,000",
 			"BoxOffice": "$879,602,366",
-			"Image": "skyfall.jpg"
+			"Image": "harry-potter3.jpg"
 		},
 		{
 			"Film": 8,
@@ -107,7 +107,7 @@
 			"Composer": "John Barry",
 			"Budget": "$180,000,000",
 			"BoxOffice": "$814,044,001",
-			"Image": "moonraker.jpg"
+			"Image": "fantastic-beasts1.jpg"
 		},
 		{
 			"Film": 9,
@@ -119,7 +119,7 @@
 			"Composer": "John Barry",
 			"Budget": "$200,000,000",
 			"BoxOffice": "$654,855,901",
-			"Image": "moonraker.jpg"
+			"Image": "fantastic-beasts2.jpg"
 		},
 		{
 			"Film": 10,
@@ -131,7 +131,7 @@
 			"Composer": "John Barry",
 			"Budget": "$31,000,000.00",
 			"BoxOffice": "$210,300,000.00",
-			"Image": "moonraker.jpg"
+			"Image": "fantastic-beasts3.jpg"
 		}
 	]
 }
