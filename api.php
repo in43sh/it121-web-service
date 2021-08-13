@@ -1,10 +1,10 @@
 <?php
 /**
- * api.php is a sample API file to be called via AJAX to 
- * deliver the contents of 2 JSON files, one of which orders the 
+ * api.php is a sample API file to be called via AJAX to
+ * deliver the contents of 2 JSON files, one of which orders the
  * data by year, the other by Box Office Results.
  *
- * The page can be called via AJAX either via GET or POST, using a variable 
+ * The page can be called via AJAX either via GET or POST, using a variable
  * named "cat":
  *
  * <code>

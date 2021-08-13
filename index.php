@@ -1,10 +1,10 @@
 <html>
 <head>
-<title>Bond Web Service Demo</title>
+<title>Harry Potter Web Service Demo</title>
 <style>
     body {font-family:georgia;}
 
-    .film{
+    .film {
         border:1px solid #E77DC2;
         border-radius: 5px;
         padding: 5px;
@@ -12,7 +12,7 @@
         position:relative;
     }
 
-    .pic{
+    .pic {
         position:absolute;
         right:10px;
         top:10px;
@@ -41,7 +41,7 @@ function loadAJAX(cat)
         type: "GET",
         dataType: "json",
         url: "api.php?cat=" + cat,
-        success: bondJSON
+        success: potterJSON
     });
 }
 
@@ -50,7 +50,7 @@ function toConsole(data)
     console.log(data); //to view,use Chrome console, ctrl + shift + j
 }
 
-function bondJSON(data){
+function potterJSON(data){
 // Here is how i see data returned via Console
     console.log(data);
 
@@ -62,7 +62,7 @@ function bondJSON(data){
 
     //loop through films and add template
     $.each(data.films,function(i,item){
-        let myFilm = bondTemplate(item);
+        let myFilm = harryPotterTemplate(item);
 
         $('<div></div>').html(myFilm).appendTo('#films');
     });
@@ -80,8 +80,7 @@ $("#output").html(myData);
 
 
 
-function bondTemplate(film){
-
+function harryPotterTemplate(film){
     return `
         <div class="film">
             <b>Film:</b>${film.Film}<br />
@@ -91,12 +90,10 @@ function bondTemplate(film){
             <b>Producers:</b>${film.Producers}<br />
             <b>Writers:</b>${film.Writers}<br />
             <b>Composer:</b>${film.Composer}<br />
-            <b>Bond:</b>Sean ${film.Bond}<br />
             <b>Budget:</b>${film.Budget}<br />
             <b>Box Office:</b>${film.BoxOffice}<br />
         <div class="pic"><img src="thumbnails/${film.Image}" /></div>
     `;
-
 }
 
 
@@ -104,7 +101,7 @@ function bondTemplate(film){
 </script>
 </head>
     <body>
-    <h1>Bond Web Service</h1>
+    <h1>Harry Potter Web Service</h1>
         <a href="year" class="category">Harry Potter Films By Year</a><br />
         <a href="box" class="category">Harry Potter Films By International Box Office Totals</a>
         <h3 id="filmtitle">Title Will Go Here</h3>
@@ -118,7 +115,6 @@ function bondTemplate(film){
                 <b>Producers:</b>Harry Saltzman and Albert R. Broccoli<br />
                 <b>Writers:</b>Richard Maibaum, Johanna Harwood and Berkely Mather<br />
                 <b>Composer:</b>Monty Norman<br />
-                <b>Bond:</b>Sean Connery<br />
                 <b>Budget:</b>$1,000,000.00<br />
                 <b>Box Office:</b>$59,567,035.00<br />
                 <div class="pic"><img src="thumbnails/dr-no.jpg" /></div>

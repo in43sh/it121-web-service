@@ -76,7 +76,7 @@
 			  {
 				"Film":7.1,
 				"Title":"Harry Potter and the Deathly Hallows: Part 1",
-				"Year":2001,
+				"Year":2010,
 				"Director":"Chris Columbus",
 				"Producers":"Todd Arnow, Michael Barnathan, Chris Columbus",
 				"Writers":"J.K. Rowling (novel), Steve Kloves (screenplay)",
@@ -88,12 +88,47 @@
 			  {
 				"Film":7.2,
 				"Title":"Harry Potter and the Deathly Hallows: Part 2",
-				"Year":1979,
+				"Year":2011,
 				"Director":"Lewis Gilbert",
 				"Producers":"Albert R. Broccoli",
 				"Writers":"Christopher Wood",
 				"Composer":"John Barry",
-				"Bond":"Roger Moore",
+				"Budget":"$180,000,000",
+				"BoxOffice":"$210,300,000.00",
+				"Image":"moonraker.jpg"
+			  },
+			  {
+				"Film":8,
+				"Title":"Fantastic Beasts and Where to Find Them",
+				"Year":2016,
+				"Director":"David Yates",
+				"Producers":"Albert R. Broccoli",
+				"Writers":"Christopher Wood",
+				"Composer":"John Barry",
+				"Budget":"$180,000,000",
+				"BoxOffice":"$814,044,001",
+				"Image":"moonraker.jpg"
+			  },
+			  {
+				"Film":9,
+				"Title":"Fantastic Beasts and Where to Find Them 2",
+				"Year":2018,
+				"Director":"David Yates",
+				"Producers":"Albert R. Broccoli",
+				"Writers":"Christopher Wood",
+				"Composer":"John Barry",
+				"Budget":"$200,000,000",
+				"BoxOffice":"$654,855,901",
+				"Image":"moonraker.jpg"
+			  },
+			  {
+				"Film":10,
+				"Title":"Fantastic Beasts and Where to Find Them 3",
+				"Year":2022,
+				"Director":"David Yates",
+				"Producers":"Albert R. Broccoli",
+				"Writers":"Christopher Wood",
+				"Composer":"John Barry",
 				"Budget":"$31,000,000.00",
 				"BoxOffice":"$210,300,000.00",
 				"Image":"moonraker.jpg"
